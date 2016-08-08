@@ -15,4 +15,8 @@ class TestDivide < Minitest::Test
 		assert_equal(1, my_division(-2, -2))
 	end
 
+	def test_0_divide_2_equals_0
+		assert_equal(0, my_division(0, 2))
+	end
+
 end
