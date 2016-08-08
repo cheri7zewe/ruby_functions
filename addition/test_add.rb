@@ -7,4 +7,8 @@ class TestAddition < Minitest::Test
 		assert_equal(0, my_addition(0, 0))
 	end 
 
+	def test_1_add_1_equals_2
+		assert_equal(2, my_addition(1, 1))
+	end
+
 end
