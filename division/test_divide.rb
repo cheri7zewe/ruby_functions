@@ -20,7 +20,7 @@ class TestDivide < Minitest::Test
 	end
 
 	def test_2_divide_0_equals_infinity
-		assert_equal("Bad wallaby!", my_division(2, 0))
+		assert_equal("Cannot divide by zero.", my_division(2, 0))
 	end
 
 end
